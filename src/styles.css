@@ -1,177 +1,177 @@
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
-    background-color: #000C2C;
+  background-color: #000C2C;
 }
 
 .material-symbols-rounded {
-    font-variation-settings:
-        'FILL' 0,
-        'wght' 400,
-        'GRAD' 0,
-        'opsz' 24
+  font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24
 }
 
 .ubuntu {
-    font-family: "Ubuntu", serif;
-    font-weight: 300;
-    font-style: normal;
+  font-family: "Ubuntu", serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .ubuntu-bold {
-    font-family: "Ubuntu", serif;
-    font-weight: 700;
-    font-style: normal;
+  font-family: "Ubuntu", serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .text-white {
-    color: white;
+  color: white;
 }
 
 .text-gray {
-    color: #9CA3AF;
+  color: #9CA3AF;
 }
 
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 
 .nav-bar {
-    padding: 10px 20px;
-    height: 40px;
-    max-height: 61px; /*20px margin + 40px content + 1 border*/
+  padding: 10px 20px;
+  height: 40px;
+  max-height: 61px; /*20px margin + 40px content + 1 border*/
 
-    border: solid;
-    border-width: 0px;
-    border-bottom-width: 1px;
-    border-color: rgb(63 221 250 / 0.1);
+  border: solid;
+  border-width: 0px;
+  border-bottom-width: 1px;
+  border-color: rgb(63 221 250 / 0.1);
 
-    position: sticky;
-    top: 0px;
+  position: sticky;
+  top: 0px;
 
-    -webkit-backdrop-filter: blur(16px);
-    backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(16px);
 
-    z-index: 1;
+  z-index: 1;
 
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .nav-bar .logo {
-    height: 60%;
-    width: auto;
+  height: 60%;
+  width: auto;
 }
 
 .hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 60px;
-    
-    height: calc(100vh - 61px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* gap: 60px; */
+  
+  height: calc(100vh - 61px);
 }
 
 .hero .logo {
-    width: 70%;
-    height: auto;
-    filter: drop-shadow(0px 0px 100px #3fdefaa2);
+  width: 70%;
+  height: auto;
+  /* filter: drop-shadow(0px 0px 100px #3fdefaa2); */
 }
 
 .h-spacer {
-    height: 1px;
-    width: 90%;
-    margin: auto;
+  height: 1px;
+  width: 90%;
+  margin: auto;
 
-    background: linear-gradient(90deg, rgba(6, 34, 66, 1) 0%, rgba(63, 221, 250, 1) 50%, rgba(6, 34, 66, 1) 100%);
+  background: linear-gradient(90deg, rgba(6, 34, 66, 1) 0%, rgba(63, 221, 250, 1) 50%, rgba(6, 34, 66, 1) 100%);
 }
 
 .features {
-    margin: auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
 
-    width: 90%;
+  width: 90%;
 }
 
 .features .header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 20px;
 }
 
 .cards-container {
-    margin-top: 50px;
+  margin-top: 50px;
 
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
 }
 
 @media (max-width: 1080px) {
-    .cards-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .cards-container {
+      grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 600px) {
-    .cards-container {
-        grid-template-columns: repeat(1, 1fr);
-    }
+  .cards-container {
+      grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 .card {
-    padding: 40px;
-    border-radius: 10px;
+  padding: 40px;
+  border-radius: 10px;
 
-    display: flex;
-    align-content: start;
-    justify-content: start;
-    flex-direction: column;
-    gap: 20px;
-    background-color: rgb(255 255 255 / 0.05);
+  display: flex;
+  align-content: start;
+  justify-content: start;
+  flex-direction: column;
+  gap: 20px;
+  background-color: rgb(255 255 255 / 0.05);
 
-    transition: 100ms;
+  transition: 100ms;
 }
 
 .card .card-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    width: 60px;
-    height: 60px;
+  width: 60px;
+  height: 60px;
 
-    background-color: rgb(63 221 250 / 0.1);
-    border-radius: 10px;
+  background-color: rgb(63 221 250 / 0.1);
+  border-radius: 10px;
 }
 
 .card .card-icon span {
-    color: #3FDDFA;
-    font-size: 30px;
+  color: #3FDDFA;
+  font-size: 30px;
 }
 
 .card:hover {
-    background-color: rgb(255 255 255 / 0.1);
-    scale: 1.05;
-    transition: 100ms;
+  background-color: rgb(255 255 255 / 0.1);
+  scale: 1.05;
+  transition: 100ms;
 }
 
 .card:hover .card-icon {
-    background-color: rgb(63 221 250 / 0.2);
+  background-color: rgb(63 221 250 / 0.2);
 }
 
 footer {
-    padding: 20px;
+  padding: 20px;
 
-    border: solid;
-    border-width: 0px;
-    border-top-width: 1px;
-    border-color: rgb(63 221 250 / 0.1);
+  border: solid;
+  border-width: 0px;
+  border-top-width: 1px;
+  border-color: rgb(63 221 250 / 0.1);
 }
